@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/meu.css">
+    <title>Prontuário Médico</title>
+</head>
+<body>
+    <form action="prontuário.php" method="post">
+
+        Nome:
+        <input type="text" name="nome" id="nome" placeholder="Nome">
+
+        Informe seu CPF:
+        <input type="number" name="cpf" id="cpf" placeholder="CPF">
+        <br>
+
+        Informe sua Data de Nascimento
+        <input type="date" name="data_nascimento" id="data_nascimento" placeholder="Data de Nascimento">
+        
+        Informe seu Endereço:
+        <input type="text" name="endereco" id="endereco" placeholder="Endereço (Rua, Bairro, CEP e Cidade)">
+        <br> 
+
+        Sexo:
+        <label for="feminino">
+            <input type="radio" id="feminino" name="sexo" value="feminino"> Feminino
+        </label>
+        <label for="masculino">
+            <input type="radio" id="masculino" name="sexo" value="masculino"> Masculino
+        </label>
+        <br>
+
+        Telefone:
+        <input type="text" name="telefone" id="telefone" placeholder="Telefone">
+
+        Peso:
+        <input type="text" name="peso" id="peso" placeholder="Peso">
+
+        Altura:
+        <input type="number" name="altura" id="altura" placeholder="Altura">
+        <br>
+
+        Deficiente físico?
+        <br>
+        <textarea type="text" name="deficiencia" id="deficiencia" cols="10" rows="5" placeholder="Qual?"></textarea>
+        <br>
+
+        Possui alergia?
+        <br>
+        <textarea type="text" name="alergia" id="alergia" cols="10" rows="5" placeholder="Qual?"></textarea>
+        <br>
+
+        Já fez alguma cirurgia anteriormente?
+        <br>
+        <textarea type="text" name="cirurgia" id="cirurgia" cols="10" rows="5" placeholder="Quando e qual?"></textarea>
+        <br>
+
+        Toma alguma medicação de uso contínuo?
+        <br>
+        <textarea type="text" name="medicacao" id="medicacao" cols="10" rows="5" placeholder="Qual?"></textarea>
+        <br>
+
+        Possui alguma doença?
+        <br>
+        <textarea type="text" name="doenca" id="doenca" cols="10" rows="5" placeholder="Qual?"></textarea>
+        <br>
+
+        Possui plano de saúde?
+        <br>
+        <textarea type="text" name="observacao" id="observacao" cols="10" rows="5" placeholder="Qual?"></textarea>
+        <p></p>
+
+        <textarea class="observacao" type="text" name="observacao" id="observacao" cols="10" rows="5" placeholder="Observações gerais do Paciente"></textarea>
+
+        <br>
+        <button type="submit">Enviar</button>
+
+    </form>
+    
+</body>
+</html>

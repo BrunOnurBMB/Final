@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+<body>
+    <form action="gravar.php" method="post">
+        <P>Linguagens</P>
+        <label for="php">
+            <input type="checkbox" id="php" name="linguagem[]" value="PHP"> PHP
+        </label>
+        <label for="jc">
+            <input type="checkbox" id="jc" name="linguagem[]" value="JC"> JC
+        </label>
+        <label for="c#">
+            <input type="checkbox" id="c#" name="linguagem[]" value="C#"> C#
+        </label>         
+        <br>
+        <p>Grau de conhecimento</p>
+        <input type="radio" name="conhecimento" value="JUNIOR" checked> JUNIOR 
+        <input type="radio" name="conhecimento" value="PLENO"> PLENO 
+        <input type="radio" name="conhecimento" value="SENIOR"> SENIOR
+        <br>
+        <p>Escolaridade</p>
+    <select name="Escolaridade">
+        <option value=""></option>
+        <option value="Ensino Médio">Ensino Médio</option>
+        <option value="Técnico">Técnico</option>
+        <option value="Superior">Superior</option>
+        <option value="Especialização">Especialização</option>
+    </select>
+    <br><button type="submit">Enviar</button>    
+    </form>
+</body>
+</html>
+

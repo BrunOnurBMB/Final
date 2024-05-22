@@ -100,7 +100,7 @@ $tabuada = 1;
 for($contador=1; $contador <= 1000; $contador++){    
     
     if($conatdor % 2 == 0){
-    for(multiplicador = 1; $multiplicador <= 10; $multiplicador++){
+    for($multiplicador = 1; $multiplicador <= 10; $multiplicador++){
     echo $tabuada." x ".$valor." = ".($tabuada*$valor)."<br />";
     }
 }

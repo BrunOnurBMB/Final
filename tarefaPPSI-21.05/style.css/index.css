@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+header{
+    background-color:antiquewhite ;
+}
+
+article{
+    background-color: rgb(228, 228, 161);
+}
+
+section{
+    background-color: brown;
+    color: white;
+}
+
+aside{
+    background-color: aqua;
+    color: black;
+}
+
+footer{
+    background-color: rgb(167, 167, 167);
+    color: white;
+}
+li{
+    list-style: none;
+}
+
+.bi-twitch{
+    color: rgb(100, 65, 165);;
+}
+
+.bi-youtube{
+    color: rgb(187,0,0);
+}
+
+.bi-instagram{
+    color:  rgb(81,127,237);;
+}
+
+.bi-twitter{
+    color: rgb(0,172,237);;
+}
+
+.bi-house-door-fill{
+    color: black;
+}
+
+.nav-item.active {
+    background-color: #8fd4c3;
+    border: solid 3px rgb(3, 2, 2);
+    border-radius: 0.5em ;
+  }
+
+.nav-item a{
+    color: black;
+}

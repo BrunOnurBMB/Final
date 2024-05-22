@@ -17,7 +17,7 @@ $pessoa1 = [
 $candidatos[] = $pessoa1;
 
 $pessoa2 = [
-    'nome' => 'JOÃO',
+    'nome' => 'Paulo',
     'sexo' => 'M',
     'idade' => 30,
     'experiencia' => 1,
@@ -31,7 +31,7 @@ $pessoa2 = [
 $candidatos[] = $pessoa2;
 
 $pessoa3 = [
-    'nome' => 'JOANA',
+    'nome' => 'Arruda',
     'sexo' => 'F',
     'idade' => 27,
     'experiencia' => 8,
@@ -64,7 +64,7 @@ foreach ($candidatos as $candidato) {
 }
 
 $pontosAnterior = 0;
-$indeceF = -1;   // -1 serve para zerar o indice/matriz ele tira a possibilidade de cair no 0 da matriz.
+$indiceF = -1;   // -1 serve para zerar o indice/matriz ele tira a possibilidade de cair no 0 da matriz.
 $indice = 0;
 $vencedores = [];
 
@@ -83,23 +83,17 @@ foreach ($candidatos as $candidato) {
 
 }
 
-echo "$qtdF, $qtdM";
+echo "<br> VENCEDORES <br>";
+foreach ($vencedores as $vencedor) {
+    echo ' <br>- '. $vencedor['nome'] . ' ('. $vencedor['pontos'].')';
+}
 
+echo '<br> <br> <br>Contratado(a)<br>';
+if ($indiceF >= 0) {
+    echo"<br> - " . $vencedores[$indiceF]['nome'];
+}else   
+    echo '<br> - '. $vencedores[0]['nome'];
 
-// echo "<br> VENCEDORES <br>";
-// foreach ($vencedores as $vencedor) {
-//     echo ' <br>- '. $vencedor['nome'] . ' ('. $vencedor['pontos'].')';
-// }
+echo"<br>";
 
-// echo '<br> <br> <br>Contratado(a)<br>';
-// if ($indeceF >= 0) {
-//     echo"<br> - " . $vencedores[$indeceF]['nomes'];
-// }else   
-//     echo '<br> - '. $vencedores[0]['nome'];
-
-// var_dump($vencedores);
-// echo "<br> "." Total F $qtdF, Total M $qtdM";
-
-// echo"<br>";
-
-// var_dump($candidatos);
+echo $indiceF;

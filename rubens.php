@@ -158,7 +158,7 @@
                         Entre 2004 e 2006 deu aulas de ilustração vetorial, animação e construção de sites em Flash MX 2004 na Impacta Tecnologia.
                     </p>
                     <p>
-                        Além de seus vários desenhos esporádicos. No ano de 2023 ele desenhou três dos alunos envolvidos nesse projeto. Na época eram chamados de "Ursinhos sem Calças em Chamas. Os alunos tem um grande apreço por esse desenho e não haveria como finalizar esse projeto sem colocá-lo."
+                        Além de seus vários desenhos esporádicos, no ano de 2023 ele desenhou três dos alunos envolvidos nesse projeto. Na época eram chamados de "Ursinhos sem Calças em Chamas. Os alunos tem um grande apreço por esse desenho e não haveria como finalizar esse projeto sem colocá-lo."
                     </p>
                 </div>
 

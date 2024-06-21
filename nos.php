@@ -110,7 +110,11 @@
                         <br>
                         Imagens: imagens individuais de cada cartunista (incluindo do Rubens) e seus banners personalizados.
                         <br>
+<<<<<<< HEAD
                         Mockup das páginas: Componentes header, nav e footer para desktop, tablet e cell; Home; Fatecons; Premiacoes; Cartunistas; Quem somos; Contato; Prototype para apresentação no desktop.
+=======
+                        Mockup das páginas: Componentes header, nav e footer desktop e tablet; Home; Fatecons; Premiacoes; Cartunistas; Quem somos; Contato.
+>>>>>>> f2c72a696530fb624c2a335632b1f0e21473e24d
                         Observações adicionais: Logo do grupo (Lobos Dengosos de Meias da Vovó Carmela); paleta de cores;
                     </p>
                 </div>

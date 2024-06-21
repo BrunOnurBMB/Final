@@ -51,7 +51,8 @@
 
 
 
-
+          <br>
+          <hr>
           <h2 class="mt-5 mb-3">1. <strong>O que são cookies?</strong></h2>
           <p>
             Cookies são pequenos arquivos de texto que um site salva no seu computador ou dispositivo móvel
@@ -125,6 +126,8 @@
       </div>
 
 
+      <br>
+      <hr>
       <div class="row justify-content-center">
         <div class="col-lg-5 col-md-12 col-sm-12">
 
